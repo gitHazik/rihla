@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-parchment: hsl(36, 33%, 96%);
+  --color-walnut: hsl(20, 10%, 20%);
+  --color-primary: hsl(24, 90%, 55%);
+}
+
+
+body {
+  background-color: var(--color-parchment);
+  color: var(--color-walnut);
+}
